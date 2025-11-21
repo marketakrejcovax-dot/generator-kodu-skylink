@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generátor kódu pro hostesky</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Generátor kódu</h1>
+    <form id="generateForm">
+      <label for="name">Jméno hostesky:</label>
+      <input type="text" id="name" required>
+
+      <label for="city">Město:</label>
+      <input type="text" id="city" required>
+
+      <button type="submit">Generovat kód</button>
+    </form>
+
+    <h2>Výsledek:</h2>
+    <textarea id="output" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
